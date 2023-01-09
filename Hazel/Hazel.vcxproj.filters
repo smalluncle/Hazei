@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d7c69bd4-1bf4-4390-86a0-ca3c56fab07e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Hazel">
+      <UniqueIdentifier>{f411a210-b2da-4eb6-897f-63d72a0e2386}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Core.h">
+      <Filter>src\Hazel</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>src\Hazel</Filter>
+    </ClInclude>
+    <ClInclude Include="Hazel.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="EntryPoint.h">
+      <Filter>src\Hazel</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Application.cpp">
+      <Filter>src\Hazel</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
